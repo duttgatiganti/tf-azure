@@ -1,9 +1,10 @@
 name: Terraform AKS
 
-on: workflow_dispatch:
-  #push:
-  #  branches:
-  #    - main
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   id-token: write
